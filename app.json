@@ -7,9 +7,6 @@
   "env": {
     "NPM_CONFIG_PRODUCTION": "false",
   },
-  "engines": {
-    "node": "4.x"
-  },
   "scripts": {
     "start": "node index.js",
     "postdeploy": "bower install&& gulp sass"
