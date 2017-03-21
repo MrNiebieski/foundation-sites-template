@@ -4,6 +4,9 @@
   "repository": "https://github.com/MrNiebieski/foundation-sites-template",
   "keywords": ["heroku", "foundation", "node"],
   "version": "1.0.0",
+  "env": {
+    "NPM_CONFIG_PRODUCTION": false,
+  },
   "engines": {
     "node": "4.x"
   },
