@@ -17,6 +17,9 @@
     "url": "https://github.com/zurb/foundation-sites/issues",
     "email": "foundation@zurb.com"
   },
+  "engines": {
+    "node": "4.x"
+  },
   "author": "ZURB <foundation@zurb.com>",
   "license": "MIT",
   "private": true,
