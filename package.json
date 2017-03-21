@@ -7,7 +7,8 @@
   },
   "scripts": {
     "start": "gulp",
-    "build": "gulp sass"
+    "build": "gulp sass",
+    "postinstall": "bower install&& gulp sass"
   },
   "repository": {
     "type": "git",
