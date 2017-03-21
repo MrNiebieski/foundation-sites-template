@@ -8,6 +8,8 @@ This is the basic starter project for [Foundation for Sites 6](http://foundation
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+deployed Demo: [https://foundation-demo.herokuapp.com](https://foundation-demo.herokuapp.com)
+
 
 To use this template, your computer needs:
 
