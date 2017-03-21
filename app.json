@@ -1,0 +1,14 @@
+{
+  "name": "foundation-sites-template-heroku-demo",
+  "description": "A barebones zurb foundation website",
+  "repository": "https://github.com/MrNiebieski/foundation-sites-template",
+  "keywords": ["heroku", "foundation", "node"],
+  "version": "1.0.0",
+  "engines": {
+    "node": "4.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "postdeploy": "bower install&& gulp sass"
+  },
+}
