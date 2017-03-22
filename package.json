@@ -1,9 +1,11 @@
 {
-  "name": "foundation-sites-template",
+  "name": "foundation-sites-template-heroku-demo",
   "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "Basic template for a new Foundation for Sites project deployed on Heroku.",
   "main": "gulpfile.js",
   "devDependencies": {
+    "bower": "^1.0",
+    "express": "^4.14.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-load-plugins": "^1.1.0",
@@ -11,11 +13,12 @@
   },
   "scripts": {
     "start": "gulp",
-    "build": "gulp sass"
+    "build": "gulp sass",
+    "postinstall": "bower install&& gulp sass"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zurb/foundation-sites-template.git"
+    "url": "https://github.com/MrNiebieski/foundation-sites-templates"
   },
   "bugs": {
     "url": "https://github.com/zurb/foundation-sites/issues",
